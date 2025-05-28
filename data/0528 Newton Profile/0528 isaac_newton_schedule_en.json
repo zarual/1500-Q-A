@@ -1,0 +1,127 @@
+{
+  "school": {
+    "name": "Belsize St. George Primary School",
+    "age_range": "4–11",
+    "key_stages": [
+      "Key Stage 1",
+      "Key Stage 2"
+    ],
+    "features": [
+      "Last week of April is Art Week",
+      "Campus-wide exhibitions and performances",
+      "International food market",
+      "Equal display opportunities for students and teachers"
+    ]
+  },
+  "yearly_schedule": {
+    "January": [
+      "New Year Holiday",
+      "Australian Open (at home)"
+    ],
+    "February": [
+      "Half-term break"
+    ],
+    "March": [
+      "World Book Day (first Thursday)",
+      "St Patrick’s Day (Mar 17)",
+      "Mothering Sunday (Mar 30)"
+    ],
+    "April": [
+      "Easter Holidays (around 20 days)",
+      "Good Friday",
+      "Easter Sunday",
+      "St George’s Day (Apr 23)"
+    ],
+    "May": [
+      "Early May Bank Holiday (May 5)",
+      "Spring Bank Holiday (May 26)",
+      "French Open (at home)"
+    ],
+    "June": [
+      "Father’s Day (third Sunday)",
+      "Wimbledon (live)"
+    ],
+    "July": [
+      "Summer Holidays begin",
+      "Devon vacation"
+    ],
+    "August": [
+      "Summer Bank Holiday (Aug 25)",
+      "US Open (at home)"
+    ],
+    "September": [
+      "Autumn Term begins"
+    ],
+    "October": [
+      "Half-term break"
+    ],
+    "November": [
+      "Remembrance Sunday (Nov 9)",
+      "St Andrew’s Day (Nov 30)"
+    ],
+    "December": [
+      "Christmas Holidays",
+      "Christmas (Dec 25–26)"
+    ]
+  },
+  "monthly_weekend_routines": {
+    "week_1": {
+      "Saturday": "Mom works; Dad takes Isaac & Luthien to grandparents’ (they moved to the suburbs)",
+      "Sunday": "Mom works and takes Luthien; Isaac stays with Dad"
+    },
+    "week_2": {
+      "Saturday": "Dad spends the day alone",
+      "Sunday": "Parents' date day; pick up kids from maternal grandparents in the evening"
+    },
+    "week_3": {
+      "Saturday": "Mom works; Dad with both kids",
+      "Sunday": "Mom works and takes Luthien; Isaac stays with Dad"
+    },
+    "week_4": {
+      "Sunday": "End-of-month Sunday Roast at maternal grandparents"
+    }
+  },
+  "weekly_schedule": {
+    "version_1": {
+      "Monday": ["Language", "History", "Geography", "Science", "Science", "PE", "PSHE"],
+      "Tuesday": ["Math", "Language", "Science", "Computer", "Language", "DT", "DT"],
+      "Wednesday": ["Language", "Science", "Geography", "Math", "Civics", "Swimming", "Swimming"],
+      "Thursday": ["Math", "History", "Language", "Language", "Religion", "PE", "Computer"],
+      "Friday": ["Math", "Language", "Science", "Science", "PE", "Drama", "Drama"]
+    },
+    "version_2": {
+      "Monday": ["Language", "History", "Geography", "Science", "Science", "PE", "PSHE"],
+      "Tuesday": ["Math", "Language", "Science", "Computer", "Language", "Art Gallery Visit", "Art Gallery Visit"],
+      "Wednesday": ["Language", "Science", "Geography", "Math", "Civics", "Music", "PE"],
+      "Thursday": ["Math", "History", "Language", "Language", "Music", "PE", "Computer"],
+      "Friday": ["Math", "Language", "Science", "Science", "PE", "Painting/Sculpture", "Painting/Sculpture"]
+    }
+  },
+  "daily_routine": {
+    "morning": {
+      "7:00": "Alarm",
+      "7:10–7:40": "Wake up, prepare breakfast",
+      "7:40–8:10": "Wash, eat, dress, pack",
+      "8:10–8:20": "Walk to school (mostly with Dad; Wednesday with Mom)"
+    },
+    "school": {
+      "8:30–15:30": "Classes as per weekly schedule",
+      "15:40": "End of school",
+      "15:40–16:30": {
+        "Monday": "Tea with Dad at café",
+        "Tuesday–Thursday": "Afternoon tea at school",
+        "Friday": "Tea at home with Sophie (neighbor)"
+      },
+      "15:50–17:30": "Optional extracurricular (£10 weekdays, £25 weekends): cooking, arts & crafts, movie"
+    },
+    "evening": {
+      "17:30": "Picked up (by Mom or Dad)",
+      "18:00": "Dinner preparation at home",
+      "18:30": "Mom arrives home",
+      "19:00–19:30": "Dinner (Friday is takeout night)",
+      "19:30–21:30": "Personal time",
+      "21:30–22:00": "Wash up and prepare for bed",
+      "22:00–7:00": "Sleep"
+    }
+  }
+}

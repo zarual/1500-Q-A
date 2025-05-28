@@ -1,0 +1,177 @@
+{
+  "daily_contacts": [
+    {
+      "name": "Luthien Newton",
+      "relation": "sister",
+      "birth": "2020-02-15",
+      "zodiac": "Rat",
+      "constellation": "Aquarius",
+      "blood_type": "A",
+      "traits": [
+        "Emotional and expressive",
+        "Fashion-loving and fond of princess stories",
+        "Sporty and strong, especially in sprinting",
+        "Has a strong sense of justice"
+      ]
+    },
+    {
+      "name": "Gerald Thompson",
+      "relation": "best friend and classmate",
+      "birth": "2016-10-01",
+      "constellation": "Libra",
+      "favorite_foods": [
+        "Pizza",
+        "Chicken wings"
+      ],
+      "favorite_animal": "Penguin",
+      "traits": [
+        "Funny and disruptive in class",
+        "Helpful and very hands-on",
+        "Good at sports",
+        "Creative and impulsive"
+      ]
+    },
+    {
+      "name": "John Chen",
+      "relation": "boarding student living with Newtons",
+      "birth": "2017-08-08",
+      "zodiac": "Rooster",
+      "constellation": "Leo",
+      "traits": [
+        "Funny impersonator and talented singer",
+        "Loves geography and Xi’an food",
+        "Energetic but sometimes clumsy",
+        "Homesick and emotional at times"
+      ]
+    },
+    {
+      "name": "Maeve O'Neill",
+      "relation": "former kindergarten classmate, now in arts club",
+      "birth": "2017-03-11",
+      "zodiac": "Rooster",
+      "constellation": "Pisces",
+      "traits": [
+        "Quiet, artistic, and dreamy",
+        "Shares dream discussions with Isaac",
+        "Invents imaginary flowers with yarn"
+      ]
+    }
+  ],
+  "monthly_contacts": [
+    {
+      "name": "Sophie Wright",
+      "relation": "neighbor, babysitter",
+      "birth_year": 2006,
+      "occupation": "Psychology student",
+      "traits": [
+        "Reflective after an accident",
+        "Bonds with Isaac as an equal",
+        "Talkative and friendly"
+      ]
+    },
+    {
+      "name": "Leslie Zhang",
+      "relation": "classmate",
+      "birth": "2016-09-19",
+      "ethnicity": "Chinese-British",
+      "traits": [
+        "Top student, excels at math",
+        "Bonded with Isaac over kite flying",
+        "Studious but friendly"
+      ]
+    }
+  ],
+  "occasional_contacts": [
+    {
+      "name": "Alex Newton",
+      "relation": "older cousin",
+      "birth": "2011-11-25"
+    },
+    {
+      "name": "Margo Moore",
+      "relation": "Luthien's friend",
+      "birth_year": 2019
+    },
+    {
+      "name": "James Thompson",
+      "relation": "Gerald's older brother",
+      "birth_year": 2014
+    },
+    {
+      "name": "Henry Scott",
+      "relation": "mom's friend's son",
+      "birth_year": 2022
+    },
+    {
+      "name": "Hal Taylor",
+      "relation": "dad's friend's daughter",
+      "birth": "2015-01-13"
+    },
+    {
+      "name": "David Green",
+      "relation": "zoo friend",
+      "birth": "2014-11-01"
+    }
+  ],
+  "other_children": [
+    {
+      "name": "Julie Simons",
+      "relation": "classmate",
+      "note": "very tall"
+    },
+    {
+      "name": "Colin Davidson",
+      "relation": "classmate",
+      "note": "severe seasonal allergies"
+    },
+    {
+      "name": "Kirk Fraser",
+      "relation": "classmate",
+      "note": "school bully"
+    },
+    {
+      "name": "Amanda",
+      "relation": "cooking classmate",
+      "note": "older, Isaac likes her"
+    },
+    {
+      "name": "Jenny",
+      "relation": "cooking classmate"
+    },
+    {
+      "name": "Andy",
+      "relation": "cooking classmate"
+    },
+    {
+      "name": "Rosa Ridley",
+      "relation": "school sports star",
+      "note": "plays junior Wimbledon"
+    },
+    {
+      "name": "Jeffery",
+      "relation": "Luthien's best friend"
+    },
+    {
+      "name": "Chris",
+      "relation": "Luthien's classmate",
+      "note": "was once pushed by Luthien"
+    },
+    {
+      "name": "Andrew",
+      "relation": "Isaac's Year 1 teacher"
+    },
+    {
+      "name": "Jacob",
+      "relation": "Isaac's Year 2 teacher"
+    },
+    {
+      "name": "Aki Sakamoto",
+      "relation": "Gerald's dad’s colleague’s child",
+      "note": "met at Gerald’s birthday"
+    },
+    {
+      "name": "Batul",
+      "relation": "Mongolian boy met at Nadam festival"
+    }
+  ]
+}

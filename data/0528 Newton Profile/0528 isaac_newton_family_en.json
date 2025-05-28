@@ -1,0 +1,236 @@
+{
+  "self": {
+    "name": "Isaac Newton",
+    "birth_date": "2016-12-25",
+    "zodiac": "Monkey",
+    "constellation": "Capricorn",
+    "blood_type": "O"
+  },
+  "sister": {
+    "name": "Luthien Newton",
+    "birth_date": "2020-02-15",
+    "zodiac": "Rat",
+    "constellation": "Aquarius",
+    "blood_type": "A"
+  },
+  "parents": {
+    "father": {
+      "name": "Ingram Newton",
+      "birth_year": 1984,
+      "age": 41,
+      "occupation": "Secondary school language teacher"
+    },
+    "mother": {
+      "name": "Kate Newton (née Smith)",
+      "birth_year": 1985,
+      "age": 40,
+      "occupation": "General practitioner at community hospital"
+    }
+  },
+  "grandparents": {
+    "paternal": {
+      "grandfather": {
+        "name": "George Patrick Newton",
+        "birth_year": 1955,
+        "age": 70,
+        "occupation": "Government official"
+      },
+      "grandmother": {
+        "name": "Grace Newton (née O'Connor)",
+        "birth_year": 1960,
+        "age": 65,
+        "occupation": "Housewife"
+      }
+    },
+    "maternal": {
+      "grandfather": {
+        "name": "William Lucas Smith",
+        "birth_year": 1960,
+        "age": 65,
+        "occupation": "Automotive technical consultant"
+      },
+      "grandmother": {
+        "name": "Mary Smith (née Bush)",
+        "birth_year": 1960,
+        "age": 65,
+        "occupation": "Office clerk"
+      }
+    }
+  },
+  "extended_family": {
+    "paternal_uncles_aunts": [
+      {
+        "name": "Ian Newton",
+        "age": 43,
+        "occupation": "Finance/AI",
+        "spouse": {
+          "name": "Angela",
+          "age": 44,
+          "nationality": "American",
+          "occupation": "High school football coach"
+        },
+        "children": [
+          {
+            "name": "Alex Newton",
+            "birth_year": 2011
+          }
+        ],
+        "pet": {
+          "name": "Duke",
+          "species": "Labrador",
+          "gender": "Male",
+          "age": 7
+        }
+      },
+      {
+        "name": "Irene Newton",
+        "age": 41,
+        "occupation": "Marine biologist",
+        "spouse": {
+          "name": "Vivek Singh",
+          "age": 45,
+          "nationality": "Indian",
+          "occupation": "Neuroscientist"
+        }
+      },
+      {
+        "name": "Irvin Newton",
+        "age": 37,
+        "occupation": "Artist",
+        "partner": {
+          "name": "Samira",
+          "age": 29,
+          "nationality": "Iranian",
+          "occupation": "Illustrator/Artist"
+        }
+      }
+    ],
+    "maternal_aunts": [
+      {
+        "name": "Audrey Smith",
+        "age": 37,
+        "occupation": "Gardener",
+        "partners": [
+          {
+            "name": "Jason",
+            "age": 33,
+            "occupation": "Software Engineer",
+            "ethnicity": "Chinese"
+          },
+          {
+            "name": "Edward",
+            "age": 40,
+            "occupation": "Chef",
+            "hometown": "Manchester"
+          }
+        ],
+        "pets": "5 cats (4 rescued, 1 fostered)"
+      },
+      {
+        "name": "Diana Smith",
+        "age": 32,
+        "occupation": "YouTube fashion blogger",
+        "partner": {
+          "name": "Daniele",
+          "age": 22,
+          "nationality": "Italian",
+          "occupation": "Fashion student at Central Saint Martins"
+        }
+      }
+    ]
+  },
+  "great_grandparents": {
+    "paternal": [
+      {
+        "name": "Philip S. Newton",
+        "lifespan": "1928–2009"
+      },
+      {
+        "name": "Isabella Newton",
+        "lifespan": "1931–2007"
+      },
+      {
+        "name": "Sean O'Connor",
+        "lifespan": "1938–2001"
+      },
+      {
+        "name": "Orla O'Connor",
+        "lifespan": "1935–2019",
+        "notes": "Clairvoyant, raised in rural Ireland"
+      }
+    ],
+    "maternal": [
+      {
+        "name": "Lucas Smith",
+        "lifespan": "1927–1980"
+      },
+      {
+        "name": "Ethel Smith",
+        "lifespan": "1930–1998"
+      },
+      {
+        "name": "John Bush",
+        "lifespan": "1925–2001"
+      },
+      {
+        "name": "Kate Bush",
+        "lifespan": "1929–2002"
+      }
+    ]
+  },
+  "pets": {
+    "fish_tank": [
+      "guppies",
+      "angelfish"
+    ],
+    "turtle": "Colonel Rock (Brazilian turtle)",
+    "geckos": [
+      {
+        "name": "Leopard",
+        "gender": "Male"
+      },
+      {
+        "name": "Cleopatra",
+        "gender": "Female"
+      }
+    ],
+    "rabbits": [
+      {
+        "name": "Peter",
+        "gender": "Male",
+        "fate": "killed by predator"
+      },
+      {
+        "name": "Cotton-tail",
+        "gender": "Female"
+      }
+    ],
+    "parakeets": [
+      {
+        "name": "Pikachu",
+        "type": "Budgie",
+        "color": "Yellow"
+      },
+      {
+        "name": "Psyduck",
+        "type": "Budgie",
+        "color": "Yellow"
+      },
+      {
+        "name": "Peanut",
+        "type": "Chick"
+      },
+      {
+        "name": "Pine nut",
+        "type": "Chick"
+      }
+    ],
+    "beetles": [
+      "3 flower beetles",
+      "2 rhinoceros beetles",
+      "2 ground beetles",
+      "1 giraffe stag beetle",
+      "1 rainbow stag beetle (gift from Gerald)"
+    ]
+  }
+}
