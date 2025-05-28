@@ -3,6 +3,9 @@ import json
 import pandas as pd
 from dotenv import load_dotenv
 from openai import OpenAI
+import re
+import time
+from datetime import datetime
 
 # Setup
 load_dotenv()
@@ -46,6 +49,7 @@ Sample diary entries:
 results = {}
 
 # Iterate through each category
+print(f"[{datetime.now().strftime('%H:%M:%S')}] Processing Q&A data...")
 for category, content in qa_data.items():
     results[category] = []
     base_questions = content["questions"]
@@ -53,6 +57,7 @@ for category, content in qa_data.items():
 
     # Process the first 10 base questions in this category
     for question in base_questions[:10]:
+        print(f"[{datetime.now().strftime('%H:%M:%S')}] \nProcessing question: {question}")
         # Round 1: Answer the base question
         resp_base = client.responses.create(
             model="o4-mini",
@@ -62,8 +67,8 @@ for category, content in qa_data.items():
                 {"role": "user", "content": question}
             ]
         )
-        base_answer = resp_base.choices[0].message.content.strip()
-
+        base_answer = resp_base.output_text.strip()
+        print(f"[{datetime.now().strftime('%H:%M:%S')}] Q: {question}\nA: {base_answer}\n")
         # Round 2a: Select 10 most appropriate follow-up questions
         selection_prompt = (
             f"Based on this answer:\n\"{base_answer}\"\n\n"
@@ -73,16 +78,29 @@ for category, content in qa_data.items():
         )
         resp_select = client.responses.create(
             model="o4-mini",
-            reasoning={"effort": "medium"},
+            reasoning={"effort": "low"},
             input=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": selection_prompt}
             ]
         )
-        selected_follow_ups = json.loads(resp_select.choices[0].message.content)
+        raw = resp_select.output_text.strip()
+        print(f"[{datetime.now().strftime('%H:%M:%S')}] Selected follow-ups: {raw}\n")
+        
+        try:
+            selected_follow_ups = json.loads(raw)
+        except json.JSONDecodeError:
+            m = re.search(r'\[.*\]', raw, flags=re.S)
+            if m:
+                selected_follow_ups = json.loads(m.group(0))
+            else:
+                selected_follow_ups = []
+                print("⚠️ Warning: could not parse follow-up JSON from:\n", raw)
+
 
         # Round 2b: Answer each selected follow-up question
         follow_up_results = []
+        print(f"[{datetime.now().strftime('%H:%M:%S')}] Answering follow-up questions...")
         for fq in selected_follow_ups:
             resp_fq = client.responses.create(
                 model="o4-mini",
@@ -94,9 +112,9 @@ for category, content in qa_data.items():
             )
             follow_up_results.append({
                 "question": fq,
-                "answer": resp_fq.choices[0].message.content.strip()
+                "answer": resp_fq.output_text.strip()
             })
-
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] Follow-up Q: {fq}\nA: {follow_up_results[-1]['answer']}\n")
         # Save results
         results[category].append({
             "question": question,
