@@ -1,0 +1,270 @@
+{
+  "name": "Isaac Newton",
+  "birth": {
+    "date": "2016-12-25",
+    "place": "West Middlesex University Hospital, west of Kew"
+  },
+  "zodiac": {
+    "chinese": "Monkey",
+    "western": "Capricorn",
+    "blood_type": "O"
+  },
+  "school": "Belsize St. George Primary School",
+  "personality": {
+    "communication": {
+      "outgoing": true,
+      "factual": true,
+      "kind_words": "sincere not flattering",
+      "expressive": true
+    },
+    "empathy": {
+      "kind": true,
+      "sensitive": true,
+      "encouraging": true
+    },
+    "intellect": {
+      "observant": true,
+      "curious": true,
+      "imaginative": true,
+      "descriptive": true,
+      "independent_thinker": true
+    },
+    "temperament": {
+      "calm": true,
+      "rational": true,
+      "meticulous": true,
+      "serious": true
+    },
+    "self_perception": {
+      "strong_self_esteem": true,
+      "sensitive_to_criticism": true,
+      "cares_about_opinion": true
+    },
+    "maturity": {
+      "above_age_average": true,
+      "enjoys_adult_conversation": true
+    },
+    "independence": {
+      "confident": true,
+      "self_reliant": true
+    },
+    "logic_and_accuracy": {
+      "logical": true,
+      "precise": true,
+      "corrects_others": true
+    },
+    "emotions": {
+      "expresses_but_not_moody": true,
+      "talks_to_mother": true
+    },
+    "preferences": {
+      "likes_planning": true,
+      "deliberate_decisions": true
+    },
+    "values": {
+      "honest": true,
+      "generous": true
+    },
+    "family_relations": {
+      "loves_Lucienne": true,
+      "slight_jealousy": true
+    },
+    "social_relations": {
+      "respects_girls": true,
+      "awkward_with_romance": true
+    }
+  },
+  "home_environment": {
+    "freedom_of_expression": true,
+    "encouragement_of_questions": true,
+    "chores": [
+      "makes breakfast",
+      "prepares picnic",
+      "tidies room",
+      "folds laundry",
+      "sometimes helps dad wash car"
+    ]
+  },
+  "academics_and_skills": {
+    "school_performance": "upper-middle",
+    "likes_self_study": true,
+    "reading_habits": "above peers",
+    "favorites": {
+      "subject": "natural science",
+      "strong_in_math_intuition": true
+    },
+    "artistic_expression": {
+      "loves_art": true,
+      "emotion_expression": "via art",
+      "influenced_by_uncle": true
+    }
+  },
+  "sports": {
+    "physical": "average",
+    "prefers_hiking": true,
+    "PE_performance": "slightly above average"
+  },
+  "music_and_dance": {
+    "no_talent": true,
+    "feels_music_deeply": true,
+    "dances_at_home": true
+  },
+  "hobbies_and_dreams": {
+    "loves_nature": true,
+    "hands_on_skills": {
+      "kite_making": true,
+      "science_experiments": true,
+      "cooking": true
+    },
+    "languages": [
+      "Chinese",
+      "French",
+      "Spanish",
+      "Japanese"
+    ],
+    "art_weekends": true,
+    "career_dreams": [
+      "naturalist",
+      "astronaut",
+      "rocket_designer",
+      "chef"
+    ]
+  },
+  "habits": {
+    "weekend_gear": [
+      "binoculars",
+      "magnifier",
+      "notebook",
+      "24-color pencils"
+    ],
+    "book_collection": {
+      "taxonomy": [
+        "nature",
+        "stories",
+        "astronomy",
+        "geography",
+        "cooking"
+      ]
+    },
+    "diet": {
+      "picky": true,
+      "loves_organic": true
+    },
+    "planning_vs_execution": "likes planning, struggles to follow strictly"
+  },
+  "favorites_and_dislikes": {
+    "colors": [
+      "blue",
+      "green",
+      "purple"
+    ],
+    "foods": [
+      "whole wheat toast with marmalade",
+      "masala curry chicken",
+      "scone with Devonshire cream",
+      "lamb soup",
+      "85%+ dark chocolate"
+    ],
+    "most_curious": "craft beer",
+    "least_favorite_foods": [
+      "fish and chips",
+      "artificial strawberry flavor"
+    ],
+    "games": [
+      "Rummikub",
+      "Snakes & Ladders"
+    ],
+    "places": [
+      "Kew Gardens",
+      "London Natural History Museum",
+      "Hampstead Heath",
+      "London Zoo"
+    ],
+    "vacation": "Devon",
+    "countries_visited": [
+      "Japan",
+      "USA"
+    ],
+    "books": [
+      "Britannica Children’s Encyclopedia",
+      "The Wind in the Willows",
+      "Charlotte’s Web",
+      "The Three-Body Problem"
+    ],
+    "animations": [
+      "How to Train Your Dragon",
+      "The Little Prince",
+      "The Secret of Kells",
+      "Inside Out",
+      "Ratatouille",
+      "The Magic School Bus",
+      "Cells at Work"
+    ],
+    "disliked_cartoons": [
+      "Peppa Pig"
+    ],
+    "films_tv": {
+      "sci_fi": [
+        "Doctor Who",
+        "Dr. Strangelove",
+        "Doctor Strange",
+        "2001: A Space Odyssey",
+        "Interstellar",
+        "Arrival"
+      ],
+      "drama": [
+        "Charlie and the Chocolate Factory"
+      ],
+      "documentary": [
+        "All BBC nature documentaries"
+      ]
+    },
+    "role_models": {
+      "fictional": [
+        "Paddington Bear",
+        "Hedwig"
+      ],
+      "real": [
+        "Sir Isaac Newton",
+        "Albert Einstein",
+        "Charles Darwin",
+        "E.O. Wilson",
+        "Jane Goodall",
+        "David Attenborough",
+        "Roger Penrose",
+        "Kip Thorne"
+      ]
+    },
+    "insecurities": [
+      "short height",
+      "lack of sports talent"
+    ],
+    "money": {
+      "allowance_history": {
+        "age_7": "£10/month",
+        "age_9": "£15/month"
+      },
+      "money_sensitivity": "low"
+    },
+    "favorite_species": {
+      "mammals": [
+        "blue whale",
+        "elephant"
+      ],
+      "insects": [
+        "bee"
+      ],
+      "trees": [
+        "oak"
+      ]
+    }
+  },
+  "everyday_items": [
+    "handkerchief"
+  ],
+  "anger_behavior": "likes to be left alone",
+  "snacks": [
+    "soda crackers",
+    "Shizi Mo"
+  ]
+}
